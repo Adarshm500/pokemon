@@ -1,4 +1,4 @@
---[[
+  --[[
     GD50
     Pokemon
 
@@ -62,8 +62,9 @@ function BattleMenuState:init(battleState)
                     end)
                 end
             }
-        }
+        },
     }
+    print('print1: ', cursor)
 end
 
 function BattleMenuState:update(dt)
